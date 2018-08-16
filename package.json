@@ -1,0 +1,24 @@
+{
+  "name": "swagger2-editor-ready",
+  "version": "0.0.1",
+  "private": true,
+  "description": "ready project template to maintain Swagger 2.0 definitions",
+  "keywords": [
+    "Swagger",
+    "Swagger 2.0",
+    "OpenAPI",
+    "Swagger Editor",
+    "RESTful API"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "express": "*",
+    "swagger-editor": "^2.10.5"
+  },
+  "scripts": {
+    "editor": "node ./tools/editor.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
